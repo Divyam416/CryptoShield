@@ -95,19 +95,3 @@ streamlit run dashboard.py
 
 ---
 
-## Team Responsibilities
-
-| Person | Task |
-|--------|------|
-| Person 1 | Run `producer_realtime.py`, handle Reddit API setup, CoinGecko integration |
-| Person 2 | Download Kaggle datasets, run `producer_replay.py`, document dataset sizes |
-| Person 3 | Improve detection in `consumer.py`, tune thresholds, write precision/recall report |
-
----
-
-## How to Justify Big Data to Your Teacher
-> "In production, Crypto-Shield monitors 500+ tokens across 5 exchanges simultaneously,
-> each generating thousands of trades/second, plus Reddit/Twitter firehose data at ~6,000
-> posts/minute. We demonstrate architecture at small scale using Kaggle's 4M-tweet dataset
-> and historical pump-dump records. Kafka handles backpressure and Spark parallelizes graph
-> computation across partitions — a Python script would drop events at this volume."
